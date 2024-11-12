@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+    color: #000000;
+
+}
+
+body {
+    font-family: "Fira Sans";
+    font-style: normal;
+}
+.family_Inter {
+    font-family: Inter;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+.px-80{
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1280px !important;
+    width: 100%;
+}
+
+:root {
+    --Global-black: #181818;
+    --Primary-yellow: #FCA311;
+    --Nuetral-black-800: #484A54;
+    --Nuetral-black-900: #373940;
+    --body-white: #FBFBFB;
+    --secondary-950:#163036;
+    --text-black2:#262626;
+}
+
+.Global-black { color: var(--Global-black,#181818);}
+.Primary-yellow { color: var(--Primary-yellow,#FCA311);}
+.Nuetral-black-800{color:var(--Nuetral-black-800,#484A54) ;}
+.Nuetral-black-900{color:var(--Nuetral-black-900,#373940) ;}
+.body-white {color: var( --body-white,#FBFBFB);}
+.secondary-950{color: var(--secondary-950, #163036);}
+.text-black2 {color: var(--text-black2, #262626);}
+.bg-green{background-color: #163036;}
+.Nuetral-50 { background-color: #F3F3F5;}
+
+.fs_60 {
+    font-size: 60px;
+}
+.fs_14 {
+    font-size: 14px;
+}
+.fs_16 {
+    font-size: 16px;
+}
+.fs_18{
+    font-size: 18px;
+}
+.fs_20{
+    font-size: 20px;
+}
+.fs_22 {
+    font-size: 22px;
+}
+.fs_24{
+    font-size: 24px;
+}
+.fs_44{
+    font-size: 44px;
+}
+.fs_30{
+    font-size: 30px;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+.fw_500 {
+    font-weight: 500;
+}
+.fw_600 {
+    font-weight: 600;
+}
+.fw_700 {
+    font-weight: 700;
+}
+.fw_800 {
+    font-weight: 800;
+}
+.ln_32{
+    line-height: 32px;
+}
+.lh_24{
+    line-height: 24px;
+}
+.lh_28 {
+    line-height: 28px;
+}
+.lh_30{
+    line-height: 30px;
+}
+.lh_32 {
+    line-height: 32px;
+}
+
+.lh_34 {
+    line-height: 34px;
+}
+.lh_72{
+    line-height: 72px;
+}
+.pd_6_16{
+    padding: 6px 16px;
+}
+.border-white{
+    border: 1px solid #D9DADF !important;
+}
+.radius_36{
+    border-radius: 36px;
+}
+.mt_12{
+    margin-top: 12px;
+}
+.mt_80{
+    margin-top: 80px;
+}
+.mt_60{
+    margin-top: 60px;
+}
+.mt_32{
+    margin-top: 32px;
+}
+.mt_18{
+    margin-top: 18px;
+}
+.mt_40{
+    margin-top: 40px;
+}
+.mx__1111{
+    max-width: 1111px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pt_40 {
+    padding-top: 40px;
+}
+
+.pt_54 {
+    padding-top: 54px;
+}
+.pt_60 {
+    padding-top: 60px;
+}
+.p_24{
+    padding: 24px;
+}
+.py_80{
+    padding: 80px 0;
+}
+.bdr_lft_yellow{
+    border-left: 2px solid #FCA311;
+}
+
+
+
+.carousel{
+    box-shadow: 0px 0px 12px 0px #0000000D;
+    background-color:white;
+}
+.carousel .span-button{
+    background-color:white;
+    padding: 5px;
+    box-shadow: 0px 0px 12px 0px #0000000D;
+    border-radius:200px;
+
+}
+.carousel .span-left{
+    margin-right: 60px;
+}
+.carousel .span-right{
+    margin-left: 60px;
+}
+.carousel-control-prev:focus .span-left svg path,
+.carousel-control-next:focus .span-right svg path {
+    stroke: #FCA311 !important;
+}
+.navbar-toggler:focus,
+.btn-close:focus{
+    box-shadow: none;
+}
+.mx_667{
+    max-width: 667px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 1360px) {
+    .fs_60 {
+        font-size: 50px;
+    }
+    .lh_72 {
+        line-height: 60px;
+    }
+
+} */
+/* @media screen and (max-width: 1440px) {
+    .main_hero_sec .fs_60{
+        font-size: 35px;
+    }
+} */
+
+@media screen and (max-width: 1240px) {
+.fs_md_60 {
+    font-size: 40px;
+}
+}
+
+
+@media screen and (max-width: 991px) {
+        .fs_md_35{
+            font-size: 35px;
+        }
+        .carousel .span-left{
+            margin-right: 30px !important;
+        }
+        .carousel .span-right{
+            margin-left: 30px;
+        }
+}
+@media screen and (max-width: 550px) {
+    .fs_sm_28{
+        font-size: 28px;
+    }
+    .fs_sm_24{
+        font-size: 24px;
+    }
+    .fs_sm_12{
+        font-size: 12px;
+    }
+    .fs_sm_32{
+        font-size: 32px;
+    }
+    .fw_sm_600{
+        font-weight: 600;
+    }
+    .fs_60 {
+        font-size: 38px;
+    }
+    .px-80{
+        padding: 40px 0;
+    }
+    footer {
+        padding: 35px 0px;
+      }
+      .footer-bar {
+        padding: 25px 0px;
+      }
+      .mx_667{
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+
+}
