@@ -243,6 +243,7 @@ h1, h2, h3, h4, h5, p {
         .carousel .span-right{
             margin-left: 30px;
         }
+     
 }
 @media screen and (max-width: 550px) {
     .fs_sm_28{
@@ -261,7 +262,7 @@ h1, h2, h3, h4, h5, p {
         font-weight: 600;
     }
     .fs_60 {
-        font-size: 38px;
+        font-size: 32px;
     }
     .px-80{
         padding: 40px 0;
@@ -276,6 +277,14 @@ h1, h2, h3, h4, h5, p {
         gap: 20px;
         margin-top: 20px;
       }
+      .lh_md_50{
+        line-height: 50px;
+    }
 
 
+}
+@media screen and (max-width: 375px) {
+.lh_md_50 {
+    line-height: 38px;
+}
 }

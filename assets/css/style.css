@@ -495,10 +495,10 @@ footer a:hover{
 }
 @media screen and (max-width: 375px) {
     .fs_60 {
-        font-size: 32px;
+        font-size: 28px;
     }
     .lh_72 {
-        line-height: 46px;
+        line-height: 40px;
     }
     .sales-span::after {
         width: 227px;
