@@ -190,6 +190,21 @@
 .faq_sec .tab-content>.tab-pane {
   display: block;
 }
+.footer-bar-image1 {
+  width: 173px;
+  height: 38px;
+}
+
+.footer-bar-image2 {
+  width: 90px;
+  height: 44px;
+  border-radius:10px
+}
+
+.footer-bar-image3 {
+  height: 38px;
+  width: 166px;
+}
 
 @media (max-width: 1280px) {
   .carousel-column {
@@ -373,6 +388,18 @@
   .footer-bar {
     padding: 25px 0px;
   }
+  .footer-bar-image1 {
+    height: 38px;
+    width: 186px;
+  }
+  .footer-bar-image2 {
+    height: 38px;
+    width: 106px;
+  }
+  .footer-bar-image3 {
+    height: 38px;
+    width: 106px;
+  }
 
   .fs_sm_26 {
     font-size: 26px;
@@ -450,20 +477,7 @@
     justify-content: left !important;
   }
 
-  .footer-bar-image1 {
-    width: 173px;
-    height: 38px;
-  }
-
-  .footer-bar-image2 {
-    width: 65px;
-    height: 31px;
-  }
-
-  .footer-bar-image3 {
-    height: 100px;
-    width: 100px;
-  }
+ 
 
   .left-icon-small {
     margin-bottom: 240px;
